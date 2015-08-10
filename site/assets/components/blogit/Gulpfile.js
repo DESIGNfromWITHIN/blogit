@@ -17,6 +17,8 @@ var paths = {
 
 gulp.task('scripts', function() {
   return gulp.src([
+    'js/vendor/jquery-1.11.1.js',
+    'js/vendor/jquery.fitvids.js',
     'js/main.js'
     ])
     .pipe(concat('main.js'))
