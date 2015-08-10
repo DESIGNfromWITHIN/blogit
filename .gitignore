@@ -1,0 +1,24 @@
+# ignore everything in this directory
+*.idlk
+/*
+
+# but not these
+!.gitignore
+!design/
+!sourcefiles/
+!site/
+
+site/*
+!site/assets/
+!site/core/
+
+# ignore cache and config
+site/.htaccess
+site/core/*
+!site/core/components/*
+site/core/config/config.inc.php
+site/config.core.php
+site/manager/config.core.php
+site/connectors/config.core.php
+site/.DS_Store
+site/assets/components/blogit/node_modules/*
