@@ -4,6 +4,7 @@
 
 # but not these
 !.gitignore
+!readme.markdown
 !design/
 !sourcefiles/
 !site/
