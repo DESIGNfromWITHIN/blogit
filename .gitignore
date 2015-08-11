@@ -8,6 +8,7 @@
 !design/
 !sourcefiles/
 !site/
+!extra/
 
 site/*
 !site/assets/
