@@ -22,7 +22,23 @@ When you install BlogIt, you will get a fully functional MODX blog based on Coll
 
 Watch the [BlogIt installation video on YouTube](https://www.youtube.com/watch?v=PG566NWbxew)
 
+## Setup
+BlogIt works best when you have [Friendly URL's active](https://rtfm.modx.com/revolution/2.x/administering-your-site/using-friendly-urls).
+To see the BlogIt options go to: 'Extras' > 'Configuration', here you will find all the BlogIt options.
+
 ## FAQ
+**I dont see any articles**
+Check the BlogIt options: 'Extras' > 'Configuration' adn see if your 'Blog container ID' is fulled in correctly (should be the resource ID of your blog container). Also, are your articles created and published?
+
+**The Published on field is empty**
+Choose a 'Published on' date for every post under the Settings tab.
+
+**I dont see any Tag options**
+Create and edit your tags under 'Extras' > 'Tagger' (make sure you fill in the correct blog post template ID for the tag group). After that you can assign the tags to your articles.
+
+**The Tag links are not working**
+Make sure you have [Friendly URL's active](https://rtfm.modx.com/revolution/2.x/administering-your-site/using-friendly-urls).
+
 **Can I update BlogIt?**
 
 Yes! any update will be available via the Package Management or from [blogit.mpthemes.com](http://blogit.mpthemes.com). You can safely update the BlogIt extra by choosing to NOT install the demo content.
