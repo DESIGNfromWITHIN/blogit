@@ -111,16 +111,22 @@ textarea {
     }
 }
 .col_12, .col_11, .col_10, .col_9, .col_8, .col_7, .col_6, .col_6_small, .col_5, .col_4, .col_3, .col_2, .col_1 {
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    @include media($medium) {
-      padding-left: 2em;
-      padding-right: 2em;
-      padding-top: 2em;
-      padding-bottom: 2em;
-    }
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  @include media($medium) {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .col_12, .col_11, .col_10, .col_9, .col_8, .col_7, .col_6, .col_6_small, .col_5, .col_4, .col_3, .col_2, .col_1 {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 .shift_2 {
   @include media($medium) {
@@ -162,6 +168,8 @@ a, a:visited {
 	color: #22acd6;
 }
 body {
+  font-family: Avenir,"Helvetica Neue","Segoe UI",Helvetica,Arial,sans-serif!important;
+  line-height: 1.4;
 	color: #646464;
 	margin: 0;
 	padding: 0;
@@ -199,5 +207,29 @@ footer {
 }
 .cta_box {
 	background: #fff;
+  padding: 1em;
 	border: 1px solid $border;
+  h4 {
+    margin: 0.33em 0 0;
+  }
+}
+h4.blue {
+  display: block;
+  font-size: 24px;
+  width: 100%;
+  border-bottom: 3px solid #22acd6;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #22acd6;
+}
+hr {
+  border: none;
+  display: block;
+  height: 3px;
+  background: #22acd6;
+  margin: 26px 0;
+  padding: 0;
+}
+a._selz-btn:hover ._selz-btn-label {
+    background: #1a82a1;
 }
