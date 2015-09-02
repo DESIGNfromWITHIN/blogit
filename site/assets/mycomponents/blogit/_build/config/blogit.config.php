@@ -16,7 +16,7 @@ $components = array(
     'packageName' => 'blogit',  /* No spaces, no dashes */
     'packageNameLower' => $packageNameLower,
     'packageDescription' => 'With BlogIt for MODX Revolution you can create a blog in MODX Revolution using Collections, Tagger and GetResources.',
-    'version' => '1.0.0',
+    'version' => '1.1.0',
     'release' => 'pl',
     'author' => 'Menno Pietersen',
     'email' => 'info@mpthemes.com',
@@ -255,14 +255,7 @@ $components = array(
      * project name will be ignored here.
      *
      * Set to array() if there are no classes. */
-    'classes' => array(
-        'AnotherClass' => 'blogit:anotherclass',
-
-        /* (optional) - Specify methods for each class.
-           if 'function' is missing, 'public function ' will
-           be prepended. Curly braces will be added   */
-        'methods' => array(),
-    ),
+    'classes' => array(),
 
     /* ************************************
      *  These values are for CMPs.

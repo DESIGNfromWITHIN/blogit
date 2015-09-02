@@ -4,7 +4,7 @@
  * Script to interact with user during blogit package install
  *
  * Copyright 2015 by Menno Pietersen info@mpthemes.com
- * Created on 08-10-2015
+ * Created on 09-02-2015
  *
  * blogit is free software; you can redistribute it and/or modify it under the
  * terms of the GNU General Public License as published by the Free Software
@@ -55,11 +55,9 @@
  *
  * */
 
-$output = '
-<img src="http://blogit.mpthemes.com/assets/components/blogit/img/blogIt-logo.png" alt="BlogIt logo" style="width: 323px; display: block; margin-bottom: 14px;">
+$output = '<img src="http://blogit.mpthemes.com/assets/components/blogit/img/blogIt-logo.png" alt="BlogIt logo" style="width: 323px; display: block; margin-bottom: 14px;">
 <h3>Thank you for installing BlogIt</h3>
 <p>We spend a lot of time creating and maintaining this MODX Extra, please visit <a href="http://mpthemes.com" target="_blank">MPThemes.com</a> to find our premium MODX Revolution themes and support us.</p>
 <p>Sincerely, <br>
-Menno Pietersen - MPThemes</p>
-';
+Menno Pietersen - MPThemes</p>';
 return $output;

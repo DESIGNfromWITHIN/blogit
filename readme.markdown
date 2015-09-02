@@ -13,12 +13,13 @@ When you install BlogIt, you will get a fully functional MODX blog based on Coll
 1. Go to 'Extras' > 'Installer'
 2. Click on 'Download Extras'
 3. Search for 'BlogIt'
-4. Click on 'Download'
-5. After download is finished, click 'Back to Package Management'
-6. Click on the 'Install' button under the listed BlogIt Extra
-7. Read the details and click 'Setup Options'
-8. Choose your options and click on 'Install Package'
-9. BlogIt will be installed
+4. Install all needed dependecies (you need MODX Revolution 2.4.0-pl or up)
+5. Click on 'Download'
+6. After download is finished, click 'Back to Package Management'
+7. Click on the 'Install' button under the listed BlogIt Extra
+8. Read the details and click 'Setup Options'
+9. Choose your options and click on 'Install Package'
+10. BlogIt will be installed
 
 Watch the [BlogIt installation video on YouTube](https://www.youtube.com/watch?v=PG566NWbxew)
 

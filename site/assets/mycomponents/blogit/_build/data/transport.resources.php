@@ -3,7 +3,7 @@
  * resources transport file for blogit extra
  *
  * Copyright 2015 by Menno Pietersen info@mpthemes.com
- * Created on 08-10-2015
+ * Created on 09-02-2015
  *
  * @package blogit
  * @subpackage build

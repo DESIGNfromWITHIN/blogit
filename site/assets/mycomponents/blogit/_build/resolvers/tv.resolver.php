@@ -3,7 +3,7 @@
 * Resolver to connect TVs to templates for blogit extra
 *
 * Copyright 2015 by Menno Pietersen info@mpthemes.com
-* Created on 08-10-2015
+* Created on 09-02-2015
 *
  * blogit is free software; you can redistribute it and/or modify it under the
  * terms of the GNU General Public License as published by the Free Software
