@@ -1,0 +1,54 @@
+{
+  "name": "blogit",
+  "version": "1.0.0",
+  "description": "With BlogIt for MODX Revolution you can create a blog in MODX Revolution using Collections, Tagger and GetResources.",
+  "main": "Gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-plumber": "^1.0.1",
+    "browser-sync": "^2.8.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-util": "^3.0.6",
+    "node-bourbon": "^4.2.3",
+    "node-neat": "^1.7.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.14.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.7",
+    "node-bourbon": "^4.2.8",
+    "node-neat": "^1.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DESIGNfromWITHIN/blogit.git"
+  },
+  "keywords": [
+    "modx",
+    "blog",
+    "blogit",
+    "collections",
+    "articles"
+  ],
+  "author": "Any Screen Size",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DESIGNfromWITHIN/blogit/issues"
+  },
+  "homepage": "https://github.com/DESIGNfromWITHIN/blogit#readme"
+}

@@ -864,12 +864,11 @@ $attr = array(
     'readme' => file_get_contents($sources['docs'] . 'readme.txt'),
     'changelog' => file_get_contents($sources['docs'] . 'changelog.txt'),
     'requires' => array(
-        'clientconfig' => '>=1.3.1',
-        'collections' => '>=3.2.1',
+        'clientconfig' => '>=1.3.2',
+        'collections' => '>=3.5.0',
         'getresources' => '>=1.6.1',
         'pthumb' => '>=2.3.3',
-        'tagger' => '>=1.7.0',
-        'ckeditor' => '>=1.3.0',
+        'tagger' => '>=1.8.0'
     ),
 );
 

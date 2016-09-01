@@ -1,5 +1,11 @@
 Changelog for blogit
 
+blogit 1.2.0 (01-09-2016)
+---------------------------------
+- updated clientconfig, collections and tagger
+- BlogIt site served over https now
+- general cleanup 
+
 blogit 1.1.0 (02-09-2015)
 ---------------------------------
 - add support for dependencies (need MODX 2.4.0-pl or up to use BlogIt)

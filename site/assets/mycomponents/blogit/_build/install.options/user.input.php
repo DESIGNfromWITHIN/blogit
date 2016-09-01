@@ -55,9 +55,11 @@
  *
  * */
 
-$output = '<img src="http://blogit.mpthemes.com/assets/components/blogit/img/blogIt-logo.png" alt="BlogIt logo" style="width: 323px; display: block; margin-bottom: 14px;">
+$output = '<img src="https://blogit.mpthemes.com/assets/components/blogit/img/blogIt-logo.png" alt="BlogIt logo" style="width: 323px; display: block; margin-bottom: 14px;">
 <h3>Thank you for installing BlogIt</h3>
-<p>We spend a lot of time creating and maintaining this MODX Extra, please visit <a href="http://mpthemes.com" target="_blank">MPThemes.com</a> to find our premium MODX Revolution themes and support us.</p>
+<p>We spend a lot of time creating and maintaining this MODX Extra, please visit <a href="https://mpthemes.com" target="_blank">MPThemes.com</a> to find our premium MODX Revolution themes and support us.</p>
 <p>Sincerely, <br>
-Menno Pietersen - MPThemes</p>';
+Menno Pietersen <br>
+<a href="https://mpthemes.com" target="_blank">MPThemes.com</a> <br>
+<a href="https://anyscreensize.com" target="_blank">Any Screen Size.com</a></p>';
 return $output;
